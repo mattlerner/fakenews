@@ -1,1 +1,3 @@
 # fakenews
+
+This repository relates to a project for Prof. Tamar Mitts' Data Science and Public Policy (Columbia INAF U6506) using a set of news articles labeled as either real or fake news. My team's assignment was to explore the efficacy of [strucutral topic models](https://scholar.princeton.edu/files/bstewart/files/stmnips2013.pdf) with regard to this data set. We deployed the model, but it seems to be of limited utility given the small size of the dataset. In the end, it seemed that simple deterministic rules--specifically the amount of punctuation and all-caps words-- were most useful in separating real from fake news.
